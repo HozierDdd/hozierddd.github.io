@@ -214,11 +214,19 @@
 
         <section class="about-text">
           <p>
-            Bienvenue/Welcome!
+            Bienvenue / Welcome!
           </p>
           <p>
-            Hozier (Hanzheng) is currently a final year graduate student and research assistant at Concordia University, Montréal, Canada. His research interest is mainly in 2 aspects: 1) AI Safety; 2) AI for Cyber Security.
+            Hozier (Hanzheng) is currently a final-year graduate student and research assistant under the supervision of Dr. Jun Yan at Concordia University, Montréal, Canada. At present, he is exploring potential PhD opportunities. His research interests lie mainly in two domains: 1) AI for cybersecurity; 2) AI safety.
           </p>
+
+<!--          <p class="timeline-text" style="margin-left: 20px;">-->
+<!--              &bull; AI for cybersecurity: Protecting computer systems has become increasingly essential in the rapidly evolving digital environment. Network attacks are becoming increasingly complex and diverse, such as ransomware and advanced persistent threats. Traditional rule - and signature - based network security protection techniques are gradually becoming difficult to cope with these new types of attacks. Another kind of technique to protect network systems is Penetration Testing (PT). PT is an authorized hacking process aiming to identify the potential vulnerabilities in the network system and is also known as ethical hacking. Traditional PT often requires specialized expertise and considerable time investment by security professionals, resulting in prolonged system downtime and higher operation. At the same time, Machine Learning technologies, such as Large Language Model (LLM), have achieved great success in the fields of natural language processing. The emergence of Model Context Protocol (MCP) has reinvigorated the potential of applying LLM in the field of cybersecurity. Using AI in cybersecurity can increase efficiency and mitigate potential cybersecurity attacks.-->
+<!--          </p>-->
+
+<!--          <p class="timeline-text" style="margin-left: 20px;">-->
+<!--              &bull; AI safety: In recent years, Artificial Intelligence (AI) technology, such as LLMs, has been developing rapidly and has been widely used in many fields such as healthcare, transportation, finance, and education, greatly promoting social progress and economic development. However, several AI safety-related issues remain unaddressed, 1) Trustworthy AI; 2) Align AI with human value; 3)-->
+<!--          </p>-->
 
         </section>
 
@@ -239,13 +247,13 @@
                 <h4 class="h4 service-item-title">Services</h4>
 
                 <p class="service-item-text">
-                  &bull; InCyber volunteer
+                  &bull; InCyber Forum volunteer
                 </p>
                 <p class="service-item-text">
-                  &bull; Open house volunteer
+                  &bull; Concordia Open house volunteer
                 </p>
                 <p class="service-item-text">
-                  &bull; IJCNN,25 reviewer
+                  &bull; IJCNN 25' reviewer
                 </p>
               </div>
 
@@ -254,19 +262,22 @@
             <li class="service-item">
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Rewards</h4>
+                <h4 class="h4 service-item-title">Awards</h4>
 
                 <p class="service-item-text">
-                  &bull; Mitac
+                  &bull; Mitacs globalink graduate fellowship (2024)
                 </p>
                 <p class="service-item-text">
-                  &bull; Concordia Mirit
+                  &bull; Concordia Merit Scholarship (2023, 2024)
                 </p>
                 <p class="service-item-text">
-                  &bull; Concordia Entrance
+                  &bull; Concordia Entrance awards (2023)
                 </p>
                 <p class="service-item-text">
-                  &bull; Outstanding Student Scholarship 18-19
+                  &bull; Third Prize, the 11th Lanqiao National Software and Information Technology Profession Competition (2020)
+                </p>
+                <p class="service-item-text">
+                  &bull; SDAU Outstanding Student Scholarship (2019)
                 </p>
               </div>
 
@@ -278,7 +289,10 @@
                 <h4 class="h4 service-item-title">Projects</h4>
 
                 <p class="service-item-text">
-                  &bull; RefPentester:
+                  &bull; RefPentester: A Knowledge-Informed Self-Reflective Penetration Testing Framework based on Large Language Models
+                </p>
+                <p class="service-item-text">
+                  &bull; Knowledge-Informed Auto-Penetration Testing Based on Reinforcement Learning with Reward Machine
                 </p>
 
               </div>
@@ -590,35 +604,84 @@
             <li class="timeline-item">
 
               <h4 class="h4 timeline-item-title">Research Assistant</h4>
-
+              <p class="timeline-text" style="font-weight: bold;">
+                  Concordia University
+              </p>
               <span>2023-01-01 — Present</span>
 
               <p class="timeline-text">
-                Concordia University
+                Knowledge-Informed Auto-Penetration Testing Based on Reinforcement Learning with Reward Machine
               </p>
+
+              <p class="timeline-text" style="margin-left: 20px;">
+                  &bull; We proposed a knowledge-informed AutoPT framework (DRLRM-PT), which utilizes RMs to encode domain knowledge as guidelines to train PT policies.
+              </p>
+              <p class="timeline-text" style="margin-left: 20px;">
+                  &bull; We applied RMs to specify and arrange subtasks of PT based on existing PT practices. We also designed a dedicated event set for AutoPT , where events represent successful executions of adversary tactics defined in cybersecurity knowledge bases, which are used by RMs to assign subtasks to agents during PT.
+              </p>
+              <p class="timeline-text" style="margin-left: 20px;">
+                  &bull; We took the lateral movement of PT as a case study and formulated PT as a POMDP guided by RMs, where two RMs were designed based on MITRE ATT&CK knowledge base; DQRM algorithm was applied to optimize the PT policy. This case study proves the effectiveness of our proposed approach and provides an illustrative example of embedding existing cybersecurity knowledge bases into RL/DRL-based PT.
+              </p>
+
+              <p class="timeline-text">
+                RefPentester: A Knowledge-Informed Self-Reflective Penetration Testing Framework based on Large Language Models (under review)
+              </p>
+<!--              <p class="timeline-text" style="margin-left: 20px;">-->
+<!--                  &bull; We introduced RefPentester, a knowledge-informed AutoPT framework based on LLMs. It consists of multiple components. The Process Navigator utilizes a pre-defined PT Stage Machine to determine the current PT stage and acquire the high-level PT knowledge via an RAG pipeline. Subsequently, this high-level PT knowledge is fed to the Generator to generate detailed PT guidance. Finally, the Reflector evaluates and rewards both the PT guidance and high-level PT knowledge according to the execution results.-->
+<!--              </p>-->
+<!--              <p class="timeline-text" style="margin-left: 20px;">-->
+<!--                  &bull; We gathered PT knowledge metadata from a wide range of public cybersecurity resources and constructed a high-level PT knowledge VDB capable of offering three-tier hierarchical PT knowledge under the current PT stage.-->
+<!--              </p>-->
+<!--              <p class="timeline-text" style="margin-left: 20px;">-->
+<!--                  &bull; To illustrate the effectiveness of the proposed framework, we conducted a comparative case study on the Sau machine from the HTB platform using the base LLM model, GPT-4o. Results show our framework can find more credentials and boost the state-transition success rate in the PT process compared to the base model.-->
+<!--              </p>-->
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">LLM Back-end Developer</h4>
+              <h4 class="h4 timeline-item-title">LLM Back - end Developer</h4>
+              <p class="timeline-text" style="font-weight: bold;">
+                  CREO Solutions (Montréal, Canada)
+              </p>
 
               <span>2024-04-01 — 2024-12-01</span>
 
+<!--              <p class="timeline-text">-->
+<!--                &bull; Using predefined dataset to fine tune LLM models, such as GPT-4o and GPT-4o mini, to align the keyword extraction result with the ground truth, and produce a report, in-->
+<!--              </p>-->
               <p class="timeline-text">
-                CREO
+                &bull; Utilizing the predefined database and the ground truth to fine-tune multiple iterations of LLM models, such as GPT-4o and GPT-4o mini, to iteratively adjust the hyperparameters and system prompts. Throughout this process, model performance metrics like precision, recall and F1-score are continuously monitored to guarantee that the model is optimized in the intended direction, and generate fine-tune reports.
+              </p>
+              <p class="timeline-text">
+                &bull; Developing multiple LLM agents using prompt-engineering techniques to analyze different parts of customer's PDF documents, developing data-processing scripts to clean and transform the extracted data and deposit it into Elasticsearch to ensure data retrievability and availability.
+              </p>
+              <p class="timeline-text">
+                &bull; Working with AWS cloud service (AWS S3), storing multiple iterations of fine-tune reports and CSV-processed results automatically.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Java Back-end Developer</h4>
+              <h4 class="h4 timeline-item-title">Java Back - end Developer</h4>
+              <p class="timeline-text" style="font-weight: bold;">
+                  Hunan Sureserve Technology Co., Ltd (Changsha, China)
+              </p>
 
               <span>2023-10-01 — 2023-01-31</span>
 
               <p class="timeline-text">
-                Hunan Sureserve Technology Co., Ltd
+                &bull; Using Springboot, SSM frames and MySQL database through IntelliJ IDEA compiler, Navicat, PowerDesigner to complete the back-end development of the company's projects.
+              </p>
+              <p class="timeline-text">
+                &bull; Using Jeecgboot to develop the back end of the company's staff decision table project and using PowerDesigner to design the database structure of the project.
+              </p>
+              <p class="timeline-text">
+                &bull; Deploying SSM to integrate the development of back-end of enterprise staff management system.
+              </p>
+              <p class="timeline-text">
+                &bull; Utilizing VUE, VUE-CLI, completed the development of part of the front page of the staff decision table through the IntelliJ WebStorm compiler, mainly in the UI layout of the homepage.
               </p>
 
             </li>
@@ -626,11 +689,19 @@
             <li class="timeline-item">
 
               <h4 class="h4 timeline-item-title">VUE Front-end Developer</h4>
+              <p class="timeline-text" style="font-weight: bold;">
+                  AsiaInfo Technologies INC. (Changsha, China)
+              </p>
 
               <span>2020-12-01 — 2021-02-01</span>
-
               <p class="timeline-text">
-                AsiaInfo Technologies (China). INC. Changsha Branch
+                &bull; Using HTML, CSS, JavaScript language, Bootstrap framework and VUE-CLI tools to complete the front-end development of the company's projects.
+              </p>
+              <p class="timeline-text">
+                &bull; Using VUE framework to complete the modification requirements of the UI layout and solved the cross-domain problem of separating the front and back end of the project.
+              </p>
+              <p class="timeline-text">
+                &bull; Requirement analysis of the project, complete the requirement analysis documents of the project and completed the project instruction PowerPoint and project instruction documents.
               </p>
 
             </li>
@@ -972,36 +1043,12 @@
 
                   <div class="blog-meta">
 
-                    <time datetime="2024-08">Aug, 2024</time>
-                  </div>
-
-
-                  <p class="blog-text">
-                    Attended world summit AI 2025
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/personal-2.jpg" alt="Summit AI 2025" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-
                     <time datetime="2025-04">Apr, 2025</time>
                   </div>
 
 
                   <p class="blog-text">
-                    Attended world summit AI 2025
+                    I attended The World Summit AI 2025. During this event, I was so fortunate to have a chance to talk with many individuals in the AI industry to learn what they were doing with AI, especially LLM-related techniques.
                   </p>
 
                 </div>
@@ -1013,19 +1060,124 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/personal-3.jpg" alt="Summit AI 2025" loading="lazy">
+                  <img src="./assets/images/personal-7.png" alt="open house" loading="lazy">
+                </figure>
+
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <time datetime="2024-10">Oct, 2024</time>
+                  </div>
+
+
+                  <p class="blog-text">
+                    I volunteered for the Concordia open house with my supervisor, Prof. Jun Yan, and my colleagues.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/personal-5.png" alt="Attended Incyber Forum as a volunteer" loading="lazy">
+                </figure>
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/personal-6.png" alt="Attended Incyber Forum as a volunteer" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
 
-                    <time datetime="2024-05">May, 2025</time>
+                    <time datetime="2024-10">Oct, 2024</time>
                   </div>
 
 
                   <p class="blog-text">
-                    Attended world summit AI 2025
+                    I attended Incyber Forum as a volunteer.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/personal-3.jpg" alt="Trip to Ottawa" loading="lazy">
+                </figure>
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/personal-4.png" alt="Ottawa University" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <time datetime="2024-05">May, 2024</time>
+                  </div>
+
+
+                  <p class="blog-text">
+                    I traveled to Ottawa with my friends.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/personal-2.jpg" alt="CREO-Concordia Launch Event" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <time datetime="2024-08">Aug, 2024</time>
+                  </div>
+
+
+                  <p class="blog-text">
+                    I attended the CREO-Concordia launch event. Joining CREO Solutions as an LLM back-end intern developer is an absolutely wonderful experience to me.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/personal-8.png" alt="dinner" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <time datetime="2024-06">june, 2024</time>
+                  </div>
+
+
+                  <p class="blog-text">
+                    Years in Canada have turned Hozier into a real cook:)
                   </p>
 
                 </div>
