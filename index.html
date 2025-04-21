@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hozier's Personal Webpage</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="assets/images/my-avatar_5.png" alt="Hozier Dai" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Hozier Dai">Hozier Dai</h1>
+          <p class="title">Master Student</p>
+          <p class="title">Research Assistant</p>
+<!--          <p class="title">Concordia Institute for Information Systems Engineering (CIISE)</p>-->
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:hanzheng.dai@mail.concordia.ca" class="contact-link">hanzheng.dai@mail.concordia.ca</a>
+            </div>
+
+          </li>
+
+<!--          <li class="contact-item">-->
+
+<!--            <div class="icon-box">-->
+<!--              <ion-icon name="phone-portrait-outline"></ion-icon>-->
+<!--            </div>-->
+
+<!--            <div class="contact-info">-->
+<!--              <p class="contact-title">Phone</p>-->
+
+<!--              <a href="tel:+12133522795" class="contact-link">+1 (438) 352-2795</a>-->
+<!--            </div>-->
+
+<!--          </li>-->
+
+<!--          <li class="contact-item">-->
+
+<!--            <div class="icon-box">-->
+<!--              <ion-icon name="calendar-outline"></ion-icon>-->
+<!--            </div>-->
+
+<!--            <div class="contact-info">-->
+<!--              <p class="contact-title">Birthday</p>-->
+
+<!--              <time datetime="1999-12-21">Dec 21, 1999</time>-->
+<!--            </div>-->
+
+<!--          </li>-->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Montréal, Québec, Canada</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/HozierDdd" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/hozier-dai-893029248/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+<!--          <li class="social-item">-->
+<!--            <a href="#" class="social-link">-->
+<!--              <ion-icon name="logo-scholar"></ion-icon>-->
+<!--            </a>-->
+<!--          </li>-->
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Personal Life</button>
+          </li>
+
+<!--          <li class="navbar-item">-->
+<!--            <button class="navbar-link" data-nav-link>Portfolio</button>-->
+<!--          </li>-->
+
+<!--          <li class="navbar-item">-->
+<!--            <button class="navbar-link" data-nav-link>Blog</button>-->
+<!--          </li>-->
+
+<!--          <li class="navbar-item">-->
+<!--            <button class="navbar-link" data-nav-link>Contact</button>-->
+<!--          </li>-->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Bienvenue / Welcome!
+          </p>
+          <p>
+            Hozier (Hanzheng) is currently a final-year graduate student and research assistant under the supervision of Dr. Jun Yan at Concordia University, Montréal, Canada. At present, he is exploring potential PhD opportunities. His research interests lie mainly in two domains: 1) AI for cybersecurity; 2) AI safety.
+          </p>
+
+<!--          <p class="timeline-text" style="margin-left: 20px;">-->
+<!--              &bull; AI for cybersecurity: Protecting computer systems has become increasingly essential in the rapidly evolving digital environment. Network attacks are becoming increasingly complex and diverse, such as ransomware and advanced persistent threats. Traditional rule - and signature - based network security protection techniques are gradually becoming difficult to cope with these new types of attacks. Another kind of technique to protect network systems is Penetration Testing (PT). PT is an authorized hacking process aiming to identify the potential vulnerabilities in the network system and is also known as ethical hacking. Traditional PT often requires specialized expertise and considerable time investment by security professionals, resulting in prolonged system downtime and higher operation. At the same time, Machine Learning technologies, such as Large Language Model (LLM), have achieved great success in the fields of natural language processing. The emergence of Model Context Protocol (MCP) has reinvigorated the potential of applying LLM in the field of cybersecurity. Using AI in cybersecurity can increase efficiency and mitigate potential cybersecurity attacks.-->
+<!--          </p>-->
+
+<!--          <p class="timeline-text" style="margin-left: 20px;">-->
+<!--              &bull; AI safety: In recent years, Artificial Intelligence (AI) technology, such as LLMs, has been developing rapidly and has been widely used in many fields such as healthcare, transportation, finance, and education, greatly promoting social progress and economic development. However, several AI safety-related issues remain unaddressed, 1) Trustworthy AI; 2) Align AI with human value; 3)-->
+<!--          </p>-->
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+<!--          <h3 class="h3 service-title">What i'm doing</h3>-->
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Services</h4>
+
+                <p class="service-item-text">
+                  &bull; InCyber Forum volunteer
+                </p>
+                <p class="service-item-text">
+                  &bull; Concordia Open house volunteer
+                </p>
+                <p class="service-item-text">
+                  &bull; IJCNN 25' reviewer
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Awards</h4>
+
+                <p class="service-item-text">
+                  &bull; Mitacs globalink graduate fellowship (2024)
+                </p>
+                <p class="service-item-text">
+                  &bull; Concordia Merit Scholarship (2023, 2024)
+                </p>
+                <p class="service-item-text">
+                  &bull; Concordia Entrance awards (2023)
+                </p>
+                <p class="service-item-text">
+                  &bull; Third Prize, the 11th Lanqiao National Software and Information Technology Profession Competition (2020)
+                </p>
+                <p class="service-item-text">
+                  &bull; SDAU Outstanding Student Scholarship (2019)
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Projects</h4>
+
+                <p class="service-item-text">
+                  &bull; RefPentester: A Knowledge-Informed Self-Reflective Penetration Testing Framework based on Large Language Models
+                </p>
+                <p class="service-item-text">
+                  &bull; Knowledge-Informed Auto-Penetration Testing Based on Reinforcement Learning with Reward Machine
+                </p>
+
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+<!--        <section class="testimonials">-->
+
+<!--          <h3 class="h3 testimonials-title">Testimonials</h3>-->
+
+<!--          <ul class="testimonials-list has-scrollbar">-->
+
+<!--            <li class="testimonials-item">-->
+<!--              <div class="content-card" data-testimonials-item>-->
+
+<!--                <figure class="testimonials-avatar-box">-->
+<!--                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>-->
+<!--                </figure>-->
+
+<!--                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>-->
+
+<!--                <div class="testimonials-text" data-testimonials-text>-->
+<!--                  <p>-->
+<!--                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a-->
+<!--                    lot of experience-->
+<!--                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt-->
+<!--                    consectetur adipiscing-->
+<!--                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.-->
+<!--                  </p>-->
+<!--                </div>-->
+
+<!--              </div>-->
+<!--            </li>-->
+
+<!--            <li class="testimonials-item">-->
+<!--              <div class="content-card" data-testimonials-item>-->
+
+<!--                <figure class="testimonials-avatar-box">-->
+<!--                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>-->
+<!--                </figure>-->
+
+<!--                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>-->
+
+<!--                <div class="testimonials-text" data-testimonials-text>-->
+<!--                  <p>-->
+<!--                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a-->
+<!--                    lot of experience-->
+<!--                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt-->
+<!--                    consectetur adipiscing-->
+<!--                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.-->
+<!--                  </p>-->
+<!--                </div>-->
+
+<!--              </div>-->
+<!--            </li>-->
+
+<!--            <li class="testimonials-item">-->
+<!--              <div class="content-card" data-testimonials-item>-->
+
+<!--                <figure class="testimonials-avatar-box">-->
+<!--                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>-->
+<!--                </figure>-->
+
+<!--                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>-->
+
+<!--                <div class="testimonials-text" data-testimonials-text>-->
+<!--                  <p>-->
+<!--                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a-->
+<!--                    lot of experience-->
+<!--                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt-->
+<!--                    consectetur adipiscing-->
+<!--                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.-->
+<!--                  </p>-->
+<!--                </div>-->
+
+<!--              </div>-->
+<!--            </li>-->
+
+<!--            <li class="testimonials-item">-->
+<!--              <div class="content-card" data-testimonials-item>-->
+
+<!--                <figure class="testimonials-avatar-box">-->
+<!--                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>-->
+<!--                </figure>-->
+
+<!--                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>-->
+
+<!--                <div class="testimonials-text" data-testimonials-text>-->
+<!--                  <p>-->
+<!--                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a-->
+<!--                    lot of experience-->
+<!--                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt-->
+<!--                    consectetur adipiscing-->
+<!--                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.-->
+<!--                  </p>-->
+<!--                </div>-->
+
+<!--              </div>-->
+<!--            </li>-->
+
+<!--          </ul>-->
+
+<!--        </section>-->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+<!--        <section class="clients">-->
+
+<!--          <h3 class="h3 clients-title">Clients</h3>-->
+
+<!--          <ul class="clients-list has-scrollbar">-->
+
+<!--            <li class="clients-item">-->
+<!--              <a href="#">-->
+<!--                <img src="./assets/images/logo-1-color.png" alt="client logo">-->
+<!--              </a>-->
+<!--            </li>-->
+
+<!--            <li class="clients-item">-->
+<!--              <a href="#">-->
+<!--                <img src="./assets/images/logo-2-color.png" alt="client logo">-->
+<!--              </a>-->
+<!--            </li>-->
+
+<!--            <li class="clients-item">-->
+<!--              <a href="#">-->
+<!--                <img src="./assets/images/logo-3-color.png" alt="client logo">-->
+<!--              </a>-->
+<!--            </li>-->
+
+<!--            <li class="clients-item">-->
+<!--              <a href="#">-->
+<!--                <img src="./assets/images/logo-4-color.png" alt="client logo">-->
+<!--              </a>-->
+<!--            </li>-->
+
+<!--            <li class="clients-item">-->
+<!--              <a href="#">-->
+<!--                <img src="./assets/images/logo-5-color.png" alt="client logo">-->
+<!--              </a>-->
+<!--            </li>-->
+
+<!--            <li class="clients-item">-->
+<!--              <a href="#">-->
+<!--                <img src="./assets/images/logo-6-color.png" alt="client logo">-->
+<!--              </a>-->
+<!--            </li>-->
+
+<!--          </ul>-->
+
+<!--        </section>-->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Concordia University</h4>
+
+              <span>2023 — 2025</span>
+
+              <p class="timeline-text">
+                Expected Degree: Master of Science in Information Systems Security
+              </p>
+              <p class="timeline-text">
+                GPA: 4.08/4.3
+              </p>
+              <p class="timeline-text">
+                Core Courses: Cryptography, Crypto-Protocol and Network Security, Operating Systems Security, Recent Developments in Information Systems Security
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Shandong Agricultural University</h4>
+
+              <span>2018 — 2022</span>
+
+              <p class="timeline-text">
+                Degree: Bachelor of Science in Computer Science and Technology
+              </p>
+              <p class="timeline-text">
+                GPA: 3.38/4.0
+              </p>
+              <p class="timeline-text">
+                Programming Courses: C++, Java, Experiments of Web Development Techniques.
+              </p>
+              <p class="timeline-text">
+                Computer theory Courses: Artificial Intelligence, Design and Analysis of Computer Algorithm, Software Project Management, Operating System, Data Structure.
+              </p>
+              <p class="timeline-text">
+                Mathematics background courses: Advanced Mathematics, Discrete Mathematics, Probability Statistics.
+              </p>
+
+            </li>
+
+<!--            <li class="timeline-item">-->
+
+<!--              <h4 class="h4 timeline-item-title">High school of art and design</h4>-->
+
+<!--              <span>2002 — 2004</span>-->
+
+<!--              <p class="timeline-text">-->
+<!--                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur-->
+<!--                magni dolores-->
+<!--                eos.-->
+<!--              </p>-->
+
+<!--            </li>-->
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Assistant</h4>
+              <p class="timeline-text" style="font-weight: bold;">
+                  Concordia University
+              </p>
+              <span>2023-01-01 — Present</span>
+
+              <p class="timeline-text">
+                Knowledge-Informed Auto-Penetration Testing Based on Reinforcement Learning with Reward Machine
+              </p>
+
+              <p class="timeline-text" style="margin-left: 20px;">
+                  &bull; We proposed a knowledge-informed AutoPT framework (DRLRM-PT), which utilizes RMs to encode domain knowledge as guidelines to train PT policies.
+              </p>
+              <p class="timeline-text" style="margin-left: 20px;">
+                  &bull; We applied RMs to specify and arrange subtasks of PT based on existing PT practices. We also designed a dedicated event set for AutoPT , where events represent successful executions of adversary tactics defined in cybersecurity knowledge bases, which are used by RMs to assign subtasks to agents during PT.
+              </p>
+              <p class="timeline-text" style="margin-left: 20px;">
+                  &bull; We took the lateral movement of PT as a case study and formulated PT as a POMDP guided by RMs, where two RMs were designed based on MITRE ATT&CK knowledge base; DQRM algorithm was applied to optimize the PT policy. This case study proves the effectiveness of our proposed approach and provides an illustrative example of embedding existing cybersecurity knowledge bases into RL/DRL-based PT.
+              </p>
+
+              <p class="timeline-text">
+                RefPentester: A Knowledge-Informed Self-Reflective Penetration Testing Framework based on Large Language Models (under review)
+              </p>
+<!--              <p class="timeline-text" style="margin-left: 20px;">-->
+<!--                  &bull; We introduced RefPentester, a knowledge-informed AutoPT framework based on LLMs. It consists of multiple components. The Process Navigator utilizes a pre-defined PT Stage Machine to determine the current PT stage and acquire the high-level PT knowledge via an RAG pipeline. Subsequently, this high-level PT knowledge is fed to the Generator to generate detailed PT guidance. Finally, the Reflector evaluates and rewards both the PT guidance and high-level PT knowledge according to the execution results.-->
+<!--              </p>-->
+<!--              <p class="timeline-text" style="margin-left: 20px;">-->
+<!--                  &bull; We gathered PT knowledge metadata from a wide range of public cybersecurity resources and constructed a high-level PT knowledge VDB capable of offering three-tier hierarchical PT knowledge under the current PT stage.-->
+<!--              </p>-->
+<!--              <p class="timeline-text" style="margin-left: 20px;">-->
+<!--                  &bull; To illustrate the effectiveness of the proposed framework, we conducted a comparative case study on the Sau machine from the HTB platform using the base LLM model, GPT-4o. Results show our framework can find more credentials and boost the state-transition success rate in the PT process compared to the base model.-->
+<!--              </p>-->
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">LLM Back - end Developer</h4>
+              <p class="timeline-text" style="font-weight: bold;">
+                  CREO Solutions (Montréal, Canada)
+              </p>
+
+              <span>2024-04-01 — 2024-12-01</span>
+
+<!--              <p class="timeline-text">-->
+<!--                &bull; Using predefined dataset to fine tune LLM models, such as GPT-4o and GPT-4o mini, to align the keyword extraction result with the ground truth, and produce a report, in-->
+<!--              </p>-->
+              <p class="timeline-text">
+                &bull; Utilizing the predefined database and the ground truth to fine-tune multiple iterations of LLM models, such as GPT-4o and GPT-4o mini, to iteratively adjust the hyperparameters and system prompts. Throughout this process, model performance metrics like precision, recall and F1-score are continuously monitored to guarantee that the model is optimized in the intended direction, and generate fine-tune reports.
+              </p>
+              <p class="timeline-text">
+                &bull; Developing multiple LLM agents using prompt-engineering techniques to analyze different parts of customer's PDF documents, developing data-processing scripts to clean and transform the extracted data and deposit it into Elasticsearch to ensure data retrievability and availability.
+              </p>
+              <p class="timeline-text">
+                &bull; Working with AWS cloud service (AWS S3), storing multiple iterations of fine-tune reports and CSV-processed results automatically.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Java Back - end Developer</h4>
+              <p class="timeline-text" style="font-weight: bold;">
+                  Hunan Sureserve Technology Co., Ltd (Changsha, China)
+              </p>
+
+              <span>2023-10-01 — 2023-01-31</span>
+
+              <p class="timeline-text">
+                &bull; Using Springboot, SSM frames and MySQL database through IntelliJ IDEA compiler, Navicat, PowerDesigner to complete the back-end development of the company's projects.
+              </p>
+              <p class="timeline-text">
+                &bull; Using Jeecgboot to develop the back end of the company's staff decision table project and using PowerDesigner to design the database structure of the project.
+              </p>
+              <p class="timeline-text">
+                &bull; Deploying SSM to integrate the development of back-end of enterprise staff management system.
+              </p>
+              <p class="timeline-text">
+                &bull; Utilizing VUE, VUE-CLI, completed the development of part of the front page of the staff decision table through the IntelliJ WebStorm compiler, mainly in the UI layout of the homepage.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">VUE Front-end Developer</h4>
+              <p class="timeline-text" style="font-weight: bold;">
+                  AsiaInfo Technologies INC. (Changsha, China)
+              </p>
+
+              <span>2020-12-01 — 2021-02-01</span>
+              <p class="timeline-text">
+                &bull; Using HTML, CSS, JavaScript language, Bootstrap framework and VUE-CLI tools to complete the front-end development of the company's projects.
+              </p>
+              <p class="timeline-text">
+                &bull; Using VUE framework to complete the modification requirements of the UI layout and solved the cross-domain problem of separating the front and back end of the project.
+              </p>
+              <p class="timeline-text">
+                &bull; Requirement analysis of the project, complete the requirement analysis documents of the project and completed the project instruction PowerPoint and project instruction documents.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+<!--        <section class="skill">-->
+
+<!--          <h3 class="h3 skills-title">My skills</h3>-->
+
+<!--          <ul class="skills-list content-card">-->
+
+<!--            <li class="skills-item">-->
+
+<!--              <div class="title-wrapper">-->
+<!--                <h5 class="h5">Web design</h5>-->
+<!--                <data value="80">80%</data>-->
+<!--              </div>-->
+
+<!--              <div class="skill-progress-bg">-->
+<!--                <div class="skill-progress-fill" style="width: 80%;"></div>-->
+<!--              </div>-->
+
+<!--            </li>-->
+
+<!--            <li class="skills-item">-->
+
+<!--              <div class="title-wrapper">-->
+<!--                <h5 class="h5">Graphic design</h5>-->
+<!--                <data value="70">70%</data>-->
+<!--              </div>-->
+
+<!--              <div class="skill-progress-bg">-->
+<!--                <div class="skill-progress-fill" style="width: 70%;"></div>-->
+<!--              </div>-->
+
+<!--            </li>-->
+
+<!--            <li class="skills-item">-->
+
+<!--              <div class="title-wrapper">-->
+<!--                <h5 class="h5">Branding</h5>-->
+<!--                <data value="90">90%</data>-->
+<!--              </div>-->
+
+<!--              <div class="skill-progress-bg">-->
+<!--                <div class="skill-progress-fill" style="width: 90%;"></div>-->
+<!--              </div>-->
+
+<!--            </li>-->
+
+<!--            <li class="skills-item">-->
+
+<!--              <div class="title-wrapper">-->
+<!--                <h5 class="h5">WordPress</h5>-->
+<!--                <data value="50">50%</data>-->
+<!--              </div>-->
+
+<!--              <div class="skill-progress-bg">-->
+<!--                <div class="skill-progress-fill" style="width: 50%;"></div>-->
+<!--              </div>-->
+
+<!--            </li>-->
+
+<!--          </ul>-->
+
+<!--        </section>-->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Personal Life
+      -->
+
+      <article class="blog" data-page="personal life">
+
+        <header>
+          <h2 class="h2 article-title">Personal Life</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/personal-1.jpeg" alt="Summit AI 2025" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <time datetime="2025-04">Apr, 2025</time>
+                  </div>
+
+
+                  <p class="blog-text">
+                    I attended The World Summit AI 2025. During this event, I was so fortunate to have a chance to talk with many individuals in the AI industry to learn what they were doing with AI, especially LLM-related techniques.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/personal-7.png" alt="open house" loading="lazy">
+                </figure>
+
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <time datetime="2024-10">Oct, 2024</time>
+                  </div>
+
+
+                  <p class="blog-text">
+                    I volunteered for the Concordia open house with my supervisor, Prof. Jun Yan, and my colleagues.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/personal-5.png" alt="Attended Incyber Forum as a volunteer" loading="lazy">
+                </figure>
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/personal-6.png" alt="Attended Incyber Forum as a volunteer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <time datetime="2024-10">Oct, 2024</time>
+                  </div>
+
+
+                  <p class="blog-text">
+                    I attended Incyber Forum as a volunteer.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/personal-3.jpg" alt="Trip to Ottawa" loading="lazy">
+                </figure>
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/personal-4.png" alt="Ottawa University" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <time datetime="2024-05">May, 2024</time>
+                  </div>
+
+
+                  <p class="blog-text">
+                    I traveled to Ottawa with my friends.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/personal-2.jpg" alt="CREO-Concordia Launch Event" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <time datetime="2024-08">Aug, 2024</time>
+                  </div>
+
+
+                  <p class="blog-text">
+                    I attended the CREO-Concordia launch event. Joining CREO Solutions as an LLM back-end intern developer is an absolutely wonderful experience to me.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/personal-8.png" alt="dinner" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <time datetime="2024-06">june, 2024</time>
+                  </div>
+
+
+                  <p class="blog-text">
+                    Years in Canada have turned Hozier into a real cook:)
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+<!--      <article class="contact" data-page="contact">-->
+
+<!--        <header>-->
+<!--          <h2 class="h2 article-title">Contact</h2>-->
+<!--        </header>-->
+
+<!--        <section class="mapbox" data-mapbox>-->
+<!--          <figure>-->
+<!--            <iframe-->
+<!--              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"-->
+<!--              width="400" height="300" loading="lazy"></iframe>-->
+<!--          </figure>-->
+<!--        </section>-->
+
+<!--        <section class="contact-form">-->
+
+<!--          <h3 class="h3 form-title">Contact Form</h3>-->
+
+<!--          <form action="#" class="form" data-form>-->
+
+<!--            <div class="input-wrapper">-->
+<!--              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>-->
+
+<!--              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>-->
+<!--            </div>-->
+
+<!--            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>-->
+
+<!--            <button class="form-btn" type="submit" disabled data-form-btn>-->
+<!--              <ion-icon name="paper-plane"></ion-icon>-->
+<!--              <span>Send Message</span>-->
+<!--            </button>-->
+
+<!--          </form>-->
+
+<!--        </section>-->
+
+<!--      </article>-->
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
